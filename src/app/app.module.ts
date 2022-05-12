@@ -15,6 +15,7 @@ import { PromotionComponent } from './promotion/promotion.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {LayoutModule} from "@angular/cdk/layout";
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
 
 @NgModule({
   declarations: [
@@ -25,17 +26,18 @@ import { CallToActionComponent } from './call-to-action/call-to-action.component
     PromotionComponent,
     CallToActionComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatGridListModule,
-    LayoutModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatButtonModule,
+        MatMenuModule,
+        MatGridListModule,
+        LayoutModule,
+        MatSidenavModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
