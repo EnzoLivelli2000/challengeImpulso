@@ -3,8 +3,8 @@
   <p class="subtitle">¡Arriba Perú!</p>
 
   <div class="box">
-    <img src="assets/images/MUNDIAL-1024x304.png" alt="imagen referencial sobre nosotros">
-    <img src="assets/images/QATAR_2-1024x304.png" alt="imagen referencial sobre nosotros">
+    <img (click)="onClick()" class="prom-img"src="assets/images/MUNDIAL-1024x304.png" alt="imagen referencial sobre nosotros">
+    <img (click)="onClick()" class="prom-img" src="assets/images/QATAR_2-1024x304.png" alt="imagen referencial sobre nosotros">
   </div>
 
   <div class="box">
@@ -12,8 +12,15 @@
       <app-card [data]="doctor"></app-card>
     </div>
   </div>
+  <div class="box">
+    <img (click)="onClick()" class="corporation-img" src="assets/images/CORPORATIVO-1024x304.png" alt="imagen referencial sobre nosotros">
+  </div>
   <a href="https://api.whatsapp.com/send?phone=51975739494"
      class="btn-wtps" target="_blank">
     <mat-icon>call</mat-icon>
   </a>
 </section>
+<footer class="footer">
+  <p>All rights reserved © 2022 | Merkary Viajes</p>
+</footer>
+
