@@ -1,0 +1,58 @@
+.subtitle {
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgb(108, 142, 225);
+  margin-left: 20px;
+}
+
+.img {
+  display: block;
+  margin: 0px auto;
+}
+
+.about-us-textContainer{
+  display: block;
+  margin: 0px auto;
+}
+
+.text-content {
+  font-style: italic;
+  color: grey;
+  margin: 0px 20px;
+}
+
+.container-grid {
+  height: 70%;
+}
+
+.box {
+  height: 90vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.btn-wtps{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: green;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,30%);
+  z-index: 100;
+}
+
+.btn-wtps:hover{
+  text-decoration: none;
+  color: green;
+  background-color: white;
+}
+
+
+

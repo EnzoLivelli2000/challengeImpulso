@@ -1,0 +1,19 @@
+<section class="container">
+  <h1 class="title">Ya estamos en el Mundial, viaja y alienta a nuestra selección</h1>
+  <p class="subtitle">¡Arriba Perú!</p>
+
+  <div class="box">
+    <img src="assets/images/MUNDIAL-1024x304.png" alt="imagen referencial sobre nosotros">
+    <img src="assets/images/QATAR_2-1024x304.png" alt="imagen referencial sobre nosotros">
+  </div>
+
+  <div class="box">
+    <div class="container-cards" *ngFor="let doctor of this.heroes">
+      <app-card [data]="doctor"></app-card>
+    </div>
+  </div>
+  <a href="https://api.whatsapp.com/send?phone=51975739494"
+     class="btn-wtps" target="_blank">
+    <mat-icon>call</mat-icon>
+  </a>
+</section>

@@ -1,0 +1,16 @@
+<section>
+  <img src="assets/images/CABECERA_LANDING.png" alt="cabecera del landing page" class="banner-img">
+  <div class="container">
+    <h1 class="title">Viaja con nosotros, somos la mejor opción de viajes a cualquier destino del mundo</h1>
+    <p class="subtitle">Gracias a nuestra amplia experiencia, podemos ofrecerle las mejores opciones y precios para su destino. Además contamos con facilidades de pago</p>
+    <div class="box">
+      <button mat-raised-button color="warn" mat-raised-button class="button-callToAction" (click)="onClickProm()">Ver Promociones</button>
+      <button mat-raised-button class="button-callToAction" (click)="onClickContac()">Contáctese con nosotros</button>
+    </div>
+  </div>
+  <a href="https://api.whatsapp.com/send?phone=51975739494"
+  class="btn-wtps" target="_blank">
+    <mat-icon>call</mat-icon>
+  </a>
+</section>
+<router-outlet></router-outlet>
